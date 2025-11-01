@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/danahmaruk/Desktop/projects/0-notehub-nextjs/app/error.tsx"],"sourcesContent":["\"use client\";\n\ninterface Props {\n  error: Error;\n  reset: () => void;\n}\n\nconst Error = ({ error, reset }: Props) => {\n  return (\n    <div>\n      <h2>ERROR</h2>\n      <p>Could not fetch the list of notes. {error.message}</p>\n      <button onClick={reset}>Try again</button>\n    </div>\n  );\n};\n\nexport default Error;\n"],"names":[],"mappings":";;;;;AAAA;;AAOA,MAAM,QAAQ,CAAC,EAAE,KAAK,EAAE,KAAK,EAAS;IACpC,qBACE,8OAAC;;0BACC,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;;oBAAE;oBAAoC,MAAM,OAAO;;;;;;;0BACpD,8OAAC;gBAAO,SAAS;0BAAO;;;;;;;;;;;;AAG9B;uCAEe","debugId":null}}]
+}

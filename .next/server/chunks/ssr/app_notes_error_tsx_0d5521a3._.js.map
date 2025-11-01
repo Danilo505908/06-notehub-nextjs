@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/danahmaruk/Desktop/projects/0-notehub-nextjs/app/notes/error.tsx"],"sourcesContent":["\"use client\";\n\nexport default function ErrorPage({ error }: { error: Error }) {\n  console.error(error);\n  return <h1>Something went wrong while loading notes 😢</h1>;\n}\n"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS,UAAU,EAAE,KAAK,EAAoB;IAC3D,QAAQ,KAAK,CAAC;IACd,qBAAO,8OAAC;kBAAG;;;;;;AACb","debugId":null}}]
+}
